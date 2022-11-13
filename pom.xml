@@ -12,12 +12,6 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-  <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.4.4.RELEASE</version>
-  </parent>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
@@ -28,9 +22,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.erudika</groupId>
-      <artifactId>para-core</artifactId>
-      <version>1.46.0</version>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-expression</artifactId>
+      <version>5.3.16</version>
     </dependency>
   </dependencies>
 
